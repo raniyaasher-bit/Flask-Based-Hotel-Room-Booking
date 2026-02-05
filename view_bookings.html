@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Bookings</title>
+</head>
+<body>
+
+<!-- Navigation Links -->
+<a href="/add_room">Add Room</a> |
+<a href="/view_rooms">View Rooms</a |
+<a href="/add_booking">Add Booking</a> |
+<a href="/view_bookings">View Bookings</a>
+<hr>
+
+<h1>All Bookings</h1>
+
+{% if bookings %}
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Room Name</th>
+        <th>Price</th>
+    </tr>
+    {% for booking in bookings %}
+    <tr>
+        <td>{{ booking.name }}</td>
+        <td>₹{{ booking.price }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No bookings yet</p>
+{% endif %}
+
+</body>
+</html>
+
+
