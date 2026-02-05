@@ -30,3 +30,5 @@ This application allows users to add hotel room details, view available rooms, c
    http://127.0.0.1:5000/
 
 The application runs locally using Flask’s development server.
+
+This project was created as part of my hands-on practice while learning Flask.
