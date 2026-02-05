@@ -24,13 +24,7 @@ The application is used to manage hotel room details and customer bookings.
   - READMEmd
     
 ## How to Run
-1. Make sure Python is installed.
-2. Install Flask if not already installed:
-3. Run the application:
-4. Open a browser and go to:
-5. http://127.0.0.1:5000/
-
-clone the repository
+1. Clone the repository:
 
 ## Notes
 This project was created as part of my hands-on practice while learning python and Flask
