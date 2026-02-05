@@ -30,5 +30,7 @@ The application is used to manage hotel room details and customer bookings.
 4. Open a browser and go to:
 5. http://127.0.0.1:5000/
 
+clone the repository
+
 ## Notes
 This project was created as part of my hands-on practice while learning python and Flask
