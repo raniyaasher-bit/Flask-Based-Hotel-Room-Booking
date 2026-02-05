@@ -21,7 +21,8 @@ The application is used to manage hotel room details and customer bookings.
   - view_rooms.html
   - add_booking.html
   - view_bookings.html
-
+  - READMEmd
+    
 ## How to Run
 1. Make sure Python is installed.
 2. Install Flask if not already installed:
